@@ -1,0 +1,146 @@
+.logo {
+    width: 100%;
+    color: blueviolet;
+    padding: 20px 0px 20px 0px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-bottom: solid 1px blueviolet;
+}
+
+.banner {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.keterangan-banner {
+    width: 30%;
+    padding-top: 100px;
+    list-style-type: none;
+}
+
+.gambar-banner {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: end;
+    border-radius: 20px;
+}
+
+.gambar-banner img {
+    background-image: cover;
+    height: 300px;
+}
+
+.nama-banner {
+    margin: 0px;
+}
+
+.btn-about {
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.tentang {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.tentang-gambar {
+    padding: 0px 50px 0px 0px;
+}
+
+.tentang-artikel {
+    width: 30%;
+    padding: 0px 50px 0px 50px;
+}
+
+.tentang-gambar img {
+    height: 400px;
+    border-radius: 10px;
+}
+
+.table-hobby tr td {
+    padding: 10px 0px 10px 0px;
+    width: 100px;
+    text-align: center;
+    border: solid 1px gray;
+    font-weight: 600;
+}
+
+.table-hobby tr td:hover {
+    border-color: blueviolet;
+    cursor: pointer;
+}
+
+.medsos {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    border: solid 1px gray;
+    width: 200px;
+    cursor: pointer;
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.card-header {
+    border-bottom: solid 1px gray;
+    padding: 5px 0px 5px 0px;
+}
+
+.gambar-card {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.gambar-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.card:hover {
+    border-color: blueviolet;
+}
+
+.card:hover .card-header {
+    border-color: blueviolet;
+}
+
+.galeri {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    justify-content: center;
+}
+
+.galeri-column {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.galeri-column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.lokasi {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
